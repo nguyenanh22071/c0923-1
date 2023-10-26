@@ -1,0 +1,25 @@
+#score1{
+    color : aliceblue;
+    font-size : 40px;
+    left:38%;
+    top:11%;
+    text-align : center;
+    align-items: center;
+    justify-content : center;
+    position : absolute;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    background-image: url("https://janschreiber.github.io/img2/black-chalk.jpg");;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+canvas {
+    border: 2px solid white;
+    align-items: center;
+    justify-content: center;
+}
