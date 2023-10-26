@@ -1,5 +1,5 @@
 #score1{
-    color : aliceblue;
+    color : black;
     font-size : 40px;
     left:38%;
     top:11%;
@@ -22,4 +22,11 @@ canvas {
     border: 2px solid white;
     align-items: center;
     justify-content: center;
+}
+.style{
+    background-color: blanchedalmond;  /*tự chọn màu yêu thích*/
+}
+body{
+    background: url("https://cdn.tgdd.vn/GameApp/3/220065/Screentshots/slither-io-ran-lon-an-ran-be-01-01-2022-12.png")no-repeat;
+    background-size: cover;
 }

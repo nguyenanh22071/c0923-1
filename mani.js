@@ -1,3 +1,11 @@
+function start() {
+    let a=document.getElementById('starts')
+    let b=document.getElementById('wellcome')
+    a.style.display='none';
+    b.style.display='block'
+
+}
+
 function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min)) + min;
 }
@@ -64,7 +72,7 @@ function loop() {
                 snake.dy = 0;
                 apple.x = getRandomInt(0, 25) * grid;
                 apple.y = getRandomInt(0, 25) * grid;
-                alert('ĐIỂM CỦA BẠN LÀ !!' + score)
+                alert('NGƯỜI CHƠI QUÁ GÀ: !!' + score)
                 window.location.reload()
                 return;
             }
